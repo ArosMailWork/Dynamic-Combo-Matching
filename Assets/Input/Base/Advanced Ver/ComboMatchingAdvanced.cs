@@ -134,9 +134,6 @@ public class ComboMatchingAdvanced : MonoBehaviour
         timeBetweenInputs = 0f;
     }
 
-
-
-
     #endregion
     
     #region Input Handling and Calculate Shiet

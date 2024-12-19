@@ -14,6 +14,6 @@ public struct InputQueue
 [CreateAssetMenu(fileName = "ComboMove", menuName = "Combo/ComboMove")]
 public class ComboMove : ScriptableObject
 {
-    public string name;
+    public string ComboName;
     public List<InputQueue> sequence;
 }

@@ -300,8 +300,6 @@ MonoBehaviour:
     action: {fileID: 11400000, guid: fa9c767e0bd60d2489d58660d02f02be, type: 2}
   - comboMove: {fileID: 11400000, guid: 8118ceffbf013e447a8ee5f17cdf239d, type: 2}
     action: {fileID: 11400000, guid: 7068401cc4b01be4f920c2ce6f23dc8c, type: 2}
-  - comboMove: {fileID: 11400000, guid: 40aff8a4ba97560448d0e544a78c3add, type: 2}
-    action: {fileID: 11400000, guid: e2fd544776d82d54ca4a2b0712b61ca7, type: 2}
   comboChain: {fileID: 847306350}
   timeBetweenInputs: 0
   maxDelay: 0
@@ -318,7 +316,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaaf65d87efa7d34798c4d2af8c708a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputHistory: []
+  debug: 
+  CombineComboMappings:
+  - comboMove: {fileID: 11400000, guid: 40aff8a4ba97560448d0e544a78c3add, type: 2}
+    action: {fileID: 11400000, guid: e2fd544776d82d54ca4a2b0712b61ca7, type: 2}
+  CombinedInputHistory: []
+  timeBetweenInputs: 0
+  maxDelay: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0

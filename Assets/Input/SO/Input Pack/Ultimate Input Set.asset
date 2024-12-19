@@ -12,14 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b44167f455baf0748b9bb5e691342ed4, type: 3}
   m_Name: Ultimate Input Set
   m_EditorClassIdentifier: 
-  name: 
+  ComboName: Ult
   sequence:
   - Delay: 0
     input: 0
     action: {fileID: 11400000, guid: 7068401cc4b01be4f920c2ce6f23dc8c, type: 2}
-  - Delay: 1
+  - Delay: 2
     input: 2
     action: {fileID: 0}
   - Delay: 2
     input: 0
     action: {fileID: 11400000, guid: fa9c767e0bd60d2489d58660d02f02be, type: 2}
+  - Delay: 2
+    input: 2
+    action: {fileID: 0}
