@@ -1,5 +1,5 @@
 # Dynamic Combo Matching
-A mini Framework for Combine Input System 
+A mini Framework for Combine Input 
 
 - Combine Input
 - Special Move
